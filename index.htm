@@ -12,11 +12,7 @@
       rel="stylesheet"
     />
     <title>Portfolio</title>
-    <style>
-      .circle {
-        border-radius: 50%;
-      }
-    </style>
+ 
   </head>
   <body>
     <header>
@@ -27,12 +23,20 @@
       </nav>
     </header>
     <section id="presentation">
+      <div class="blocTitre">
+      <div class="accueil">
       <h1>Site Portfolio</h1>
       <p>Fait par Michael Ali Soeu</p>
       <div class="button">
         <button onclick="scrollToCompetences()" class="button-18" role="button">A propos de moi</button>
         <button onclick="scrollToTravaux()"class="button-18" role="button">Mes travaux</button>
       </div>
+    </div> 
+      <div class="logoP">
+        <img class="tailleimg" src="image/download.gif" alt="logo" />   
+    </div>
+    </div>
+    
     </section>
     <section id="aboutMe">
       <h1>A propos De moi</h1>
@@ -123,7 +127,11 @@
         
           
       </section>
-      
+    <footer>
+      <div class="bottomBtn">
+      <button onclick="scrollToTop()"class="button-18" role="button">retour</button>
+    </div>
+    </footer>
   </body>
   <script src="js/scroll.js"></script>
 </html>
